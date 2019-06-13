@@ -41,18 +41,18 @@ function imprimir_modal(msj) {
 			/*Pantalla de inicio*/
 /*---------------------------------------------*/
 function pantallaInicio() {
-	var pag =   '<div class="container-fluid">'+
-					'<header class="row">'+
-						'<div class="col-xs-12 col-sm-12 bg-primary">'+
-							'<h4 class="text-center"><b>LISTA DE CHEQUEO SELLOS Y ETIQUETAS DE SEGURIDAD</b></h4>'+
-						'</div>'+
-					'</header>'+
-					'<section class="row">'+
-						'<div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3">'+
-							'<button class="btn btn-block btn-primary" id="btnIniciar" style="margin-top: 50%;">Realizar Revisión</button>'+
-						'</div>'+
-					'</section>'+
-				'</div>';
+	var pag =   "<div class='container-fluid'>"+
+					"<header class='row'>"+
+						"<div class='col-xs-12 col-sm-12 bg-primary'>"+
+							"<h4 class='text-center'><b>LISTA DE CHEQUEO SELLOS Y ETIQUETAS DE SEGURIDAD</b></h4>"+
+						"</div>"+
+					"</header>"+
+					"<section class='row'>"+
+						"<div class='col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3'>"+
+							"<button onclick=(alert(\""+'hola'+"\")) class='btn btn-block btn-primary' id='btnIniciar' style='margin-top: 50%;'>Realizar Revisión</button>"+
+						"</div>"+
+					"</section>"+
+				"</div>";
 
 	return document.getElementById('pagina').innerHTML = pag;
 }
