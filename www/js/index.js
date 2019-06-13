@@ -1,3 +1,4 @@
+
 var app = {
     // Application Constructor
     initialize: function() {
@@ -15,7 +16,7 @@ var app = {
     // Update DOM on a Received Event
     receivedEvent: function(id) {
 
-        seleccionarPantalla("pantallaInicio");
+        pantallaInicio();
         
     }
 };
