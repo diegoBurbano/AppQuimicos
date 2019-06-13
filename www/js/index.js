@@ -15,10 +15,14 @@ var app = {
 
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-
         pantallaInicio();
-        
     }
 };
+
+function hacerFoto() {
+    navigator.camera.getPicture
+}
+
+
 
 app.initialize();

@@ -1,7 +1,7 @@
 	 
 		/*Modal para mostrar los Mensajes*/
 /*---------------------------------------------*/
-function imprimir_modal(msj) {
+function imprimirModalNot(msj) {
 	var rta = 	"<div id='avModal' class='modal fade' role='dialog'>"+
 					"<div class='modal-dialog'>"+
 						"<div class='modal-content'>"+
