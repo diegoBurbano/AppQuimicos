@@ -49,7 +49,7 @@ function pantallaInicio() {
 					"</header>"+
 					"<section class='row'>"+
 						"<div class='col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3'>"+
-							"<button onclick=(alert(\""+'hola'+"\")) class='btn btn-block btn-primary' id='btnIniciar' style='margin-top: 50%;'>Realizar Revisión</button>"+
+							"<button onclick='seleccionarPantalla(\""+'pantallaSelFormato'+"\");' class='btn btn-block btn-primary' id='btnIniciar' style='margin-top: 50%;'>Realizar Revisión</button>"+
 						"</div>"+
 					"</section>"+
 				"</div>";
