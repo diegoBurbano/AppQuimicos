@@ -1,7 +1,7 @@
 	 
 		/*Modal para mostrar los Mensajes*/
 /*---------------------------------------------*/
-function imprimir_modal(msj) {
+function imprimirModalNot(msj) {
 	var rta = 	"<div id='avModal' class='modal fade' role='dialog'>"+
 					"<div class='modal-dialog'>"+
 						"<div class='modal-content'>"+
@@ -103,7 +103,7 @@ function pantallaDatosVehi() {
 								"</form>"+
 								"<br>"+
 								"<div class='col-xs-6 col-xs-offset-3'>"+
-									"<button class='btn btn-primary'>Tomar Foto</button>"+
+									"<button onclick='hacerFoto();' class='btn btn-primary'>Tomar Foto</button>"+
 								"</div>"+
 							"</div>"+
 						"</div>"+
