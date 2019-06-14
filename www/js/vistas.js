@@ -103,7 +103,7 @@ function pantallaDatosVehi() {
 								"</form>"+
 								"<br>"+
 								"<div class='col-xs-6 col-xs-offset-3'>"+
-									"<button class='btn btn-primary'>Tomar Foto</button>"+
+									"<button onclick='hacerFoto();' class='btn btn-primary'>Tomar Foto</button>"+
 								"</div>"+
 							"</div>"+
 						"</div>"+
